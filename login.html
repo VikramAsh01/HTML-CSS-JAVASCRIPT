@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="loginstyle.css">
+<title>  Login </title>
+</head>
+<body>
+  <body>
+    <nav class="navbar">
+        
+    </nav>
+    <div class="login-page">
+      <div class="form">
+        <div class="login">
+          <div class="login-header">
+            <h3>LOGIN</h3>
+            <p>Please enter your credentials to login.</p>
+          </div>
+        </div>
+        <form class="login-form">
+          <input type="text" placeholder="username" required>
+          <input type="password" placeholder="password"required>
+          
+          <button><input onclick="alertdisplay()" type="submit" value="Login" style="color: white;background-color: #328f8a;" required></button>
+          <script>
+              function alertdisplay()
+              {
+                  window.alert("Login Successfully");
+                  window.location.reload();
+              }
+            </script>
+          <p class="message">Not registered? <a href="register.html">Create an account</a></p>
+        </form>
+      </div>
+    </div>
+</body>
+</body>
+</html>

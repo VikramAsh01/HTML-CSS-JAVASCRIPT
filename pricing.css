@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; /* Changed font */
+}
+
+body {
+    background: linear-gradient(135deg, rgb(106, 130, 251), rgb(252, 92, 125)), 
+                url('https://www.transparenttextures.com/patterns/white-paper.png'); /* Added background texture */
+    background-size: cover;
+    color: rgb(51, 51, 51);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.body {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.containerp {
+    background: rgb(255, 255, 255); /* Solid background for the boxes */
+    border-radius: 15px;
+    text-align: center;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+.containerp:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+    background: rgb(224, 247, 250); /* Light blue on hover */
+}
+
+.containerp h2 {
+    font-size: 26px;
+    margin: 10px 0;
+    color: rgb(74, 20, 140); /* Deep purple */
+}
+
+.containerp h1 {
+    font-size: 42px; /* Adjusted font size */
+    margin: 10px 0;
+    color: rgb(213, 0, 109); /* Pink */
+}
+
+.containerp h4 {
+    font-size: 16px;
+    color: rgb(85, 85, 85);
+    margin: 10px 0;
+}
+
+.containerp p {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}

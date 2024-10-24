@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="loginstyle.css">
+<title>Register </title>
+</head>
+<body>
+  <body>
+    <nav class="navbar">
+        
+    </nav>
+    <div class="login-page">
+      <div class="form">
+        <div class="login">
+          <div class="login-header">
+            <h3>REGISTER</h3>
+            <p>Please enter your credentials to login.</p>
+          </div>
+        </div>
+        <form class="login-form">
+          <input type="text" placeholder="First name"   required/>
+          <input type="text" placeholder="Last name"  required/>
+          
+          <input type="email" placeholder="Email" required>
+          <input type="text" placeholder="Mobile number"  required/>
+          <p>Create Password :-</p>
+          <input type="password" placeholder="Set password" required/>
+          <input type="password" placeholder="Enter again" required/>
+          <button><input onclick="alertdisplay()" type="submit" value="Register" style="color: white;background-color: #328f8a;"></button>
+                        <script>
+                            function alertdisplay()
+                            {
+                                window.alert("Register Successfully");
+                                window.location.reload();
+                            }
+                          </script>
+          <p class="message">Already registered? <a href="login.html">Click here to login.</a></p>
+        </form>
+      </div>
+    </div>
+</body>
+</body>
+</html>
